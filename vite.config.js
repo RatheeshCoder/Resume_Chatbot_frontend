@@ -7,6 +7,6 @@ export default defineConfig({
   server: {
     host: "0.0.0.0",
     port: 3002,
-    allowedHosts: ["syncner-job-frontend-9if4y.ondigitalocean.app"],
+    allowedHosts: ["https://resume-chatbot-frontend.onrender.com"],
   },
 })
