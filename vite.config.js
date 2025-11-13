@@ -3,14 +3,12 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  server: {
-    port: 3000,   // Local dev port (optional)
-  },
+  
   preview: {
-    port: 8080,   // For npm start (vite preview)
-  },
-  build: {
-    outDir: "dist",   // Ensure build goes to dist folder
-    emptyOutDir: true // Clean output before build
+    host: true,
+    port: 8080,
+    allowedHosts: [
+      "resume-chatbot-frontend.onrender.com"
+    ]
   }
 })
