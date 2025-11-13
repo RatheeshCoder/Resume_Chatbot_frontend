@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Send, User, Bot, Loader2, CheckCircle2, Circle, Plus, ArrowLeft, Download, Mail, Phone, MapPin, Linkedin, Github } from 'lucide-react';
 
 
-const API_URL = 'https://resume-chatbot-backend-unnd.onrender.com'
+const API_URL = 'https://resume-chatbot-backend-aq9a.onrender.com'
 // API Configuration
 const API_BASE_URLS = {
   project: `${API_URL}/api/v1/chatbot/project`,
